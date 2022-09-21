@@ -3,7 +3,7 @@
     <title>Testing W3 Html links</title>
 
     <head>
-        <style>
+        <!-- <style>
             a:link {color: coral; background-color: aquamarine; text-decoration: none;}
 
             a:visited {color: orange; background-color: black; text-decoration: none;}
@@ -11,6 +11,21 @@
             a:hover {color: red; background-color: gray; text-decoration: dashed;}
 
             a:active {color: yellow; background-color: gray; text-decoration: underline;}
+        </style> -->
+
+        <style>
+        a:link, a:visited {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active{
+            background-color: red;
+        }
         </style>
     </head>
 
