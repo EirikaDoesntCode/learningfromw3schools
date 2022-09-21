@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Testing W3 Html link bookmarks</title>
+
+    <head>
+        <!-- <style>
+            a:link {color: coral; background-color: aquamarine; text-decoration: none;}
+
+            a:visited {color: orange; background-color: black; text-decoration: none;}
+
+            a:hover {color: red; background-color: gray; text-decoration: dashed;}
+
+            a:active {color: yellow; background-color: gray; text-decoration: underline;}
+        </style> -->
+
+        <style>
+        a:link, a:visited {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active{
+            background-color: red;
+        }
+        </style>
+    </head>
+
+    <body>
+        <a href="#C1">Jump to Chapter 1</a><a href="#C2">Jump to Chapter 2</a><a href="#C3">Jump to Chapter 3</a><a href="#C4">Jump to Chapter 4</a><a href="#C5">Jump to Chapter 5</a>
+
+<!-- Basic Links, use of `_target`  -->
+        <h3 id="C1"> Chapter 1</h3>
+        <a href="https://edcblog.netlify.app">Eirika's Blog</a>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <br>
+        <br>
+        <h3 id="C2">Chapter 2</h3>
+        <a href="https://edcblog.netlify.app" target="_blank"> Blank<br>Eirika's Blog in new tab</a>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <br>
+        <br>
+        <h3 id="C3">Chapter 3</h3>
+        <a href="https://edcblog.netlify.app" target="_parent"> Parent<br>Eirika's Blog in parent frame</a>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <br>
+        <br>
+        <h3 id="C4">Chapter 4</h3>
+        <a href="https://edcblog.netlify.app" target="_self"> Self<br>Eirika's Blog in same tab</a>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <br>
+        <br>
+        <h3 id="C5">Chapter 5</h3>
+        <a href="https://edcblog.netlify.app" target="_top"> Top<br>Eirika's Blog in full body of window</a>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <br>
+        <br>
+<!-- Link, use of Image as the Link-->
+        <h3>Image Link</h3>
+        <a href="https://edcblog.netlify.app" target="_blank"><img src="img/Aigen_dragon1.png" alt="HTML Test Image Link" style="width:250px; height:250px"> </a>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <br>
+        <br>
+<!-- Link, opens email program with recipient set-->
+        <h3>Contact Details</h3>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <p>A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.A large amount of text to create the illusion of a full, long page.</p>
+        <p>Contact Me At:</p>
+        <a href="mailto:eirikadoesntcode@gmail.com">eirikadoesntcode@gmail.com</a>
+        <br>
+        <br>
+<!-- Link, Button as a Link-->
+        <button onclick="document.location='links.html'" >Button Link?</button>
+    </body>
+
+</html>
